@@ -1,0 +1,141 @@
+:root{
+
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+}
+
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+    box-sizing: border-box; /* Padding won't cause overflow */
+}
+
+#logo-container {
+    display: flex;
+    align-items: flex-end;
+}
+
+#header-img {
+    height: 40px; 
+    margin-right: 10px;
+}
+
+
+#page-title {
+    color: white;
+    font-size: 30px; 
+    margin: 0;
+}
+
+#nav-bar ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar ul > li {
+    margin-left: 20px;
+    padding: 14px 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+}
+
+#video{
+    width: 100%;
+}
+
+#video-txt{
+    position: absolute;
+    top: 150px;
+    right: 10px;
+    color: white;
+    font-size: 30px;
+}
+
+/*Home section*/
+#home{
+    background-color: black;
+}
+
+#home > p{
+    color: white;
+    padding: 10%;
+    line-height: 30px;
+}
+
+/* Features */
+h3{
+    margin: 20px;
+    color: red;
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+/* Packages */
+#pricing{
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}
+
+.subbox{
+    padding: 20px;
+    border: 1px solid black;
+    background-color: aqua;
+    background-color: #f9f9f9; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+.subbox h4{
+    margin-bottom: 10px;
+}
+
+.pricing_list {
+    margin: 10%;
+}
+
+.pricing_list li {
+    margin-bottom: 5px;
+}
+
+#subscribe{
+    padding: 30px;
+    text-align: center;
+}
+
+#form{
+   text-align: center;
+   padding: 10px;
+}
