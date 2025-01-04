@@ -1,8 +1,10 @@
 :root{
     --background-color:black;
-    --text-color1:;
-    --text-color2: #FF6F00;
-    --text-color1:;
+    --background-color2: rgba(51, 48, 48, 0.199);
+    --text-color1: #edf6f9;
+    --text-color2: #bb6b00;
+    --text-color3: #e8985e;
+    --background-color3: rgba(232, 152, 94, 0.8);
 }
 
 * {
@@ -13,17 +15,26 @@
 
 body{
     background-color: black;
-    color: white;
+    color: var(--text-color1);
     text-align: center;
+    font-family: "DM Serif Text", serif;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3 {
+    font-family: "Bebas Neue", serif;
+    letter-spacing: 3px;
 }
 
 h2{
     padding: 20px;
+    color: var(--text-color3);
+    font-size: 30px;
 }
 
 h3{
     margin: 30px;
-    color: red;
+    background-color: var(--background-color3);
 }
 
 
@@ -114,7 +125,7 @@ a:hover {
     padding: 20px;
     height: 100%;
     max-height: 300px;
-    background-color: rgba(51, 48, 48, 0.199);
+    background-color: var(--background-color2);
 }
 
 
@@ -137,15 +148,27 @@ a:hover {
 
 .subbox{
     padding: 20px;
-    border: 1px solid black;
-    background-color: aqua;
-    background-color: #f9f9f9; 
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    border: 1px solid rgba(88, 67, 8, 0.123);
+    background-color: var(--background-color2);
+    box-shadow: 0 4px 6px rgba(112, 85, 36, 0.322); 
     text-align: center; 
 }
 
 .subbox h4{
     margin-bottom: 10px;
+    padding: 2px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: var(--background-color3);
+}
+
+.price{
+    font-size: 40px;
+}
+
+.package-underline{
+    border: 1px solid var(--text-color3);
+    margin: 10px;
 }
 
 .pricing_list {
@@ -156,6 +179,10 @@ a:hover {
     margin-bottom: 5px;
 }
 
+
+
+/* subscribe */
+
 #subscribe{
     padding: 30px;
     text-align: center;
@@ -164,4 +191,16 @@ a:hover {
 #form{
    text-align: center;
    padding: 10px;
+}
+
+/* footer */
+footer{
+    margin: 20px;
+    text-align: right;
+}
+
+.footer-items{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
 }
