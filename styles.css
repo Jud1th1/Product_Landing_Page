@@ -86,7 +86,9 @@ a {
 }
 
 a:hover {
-    color: blue;
+    color: #ffa31a;
+    text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 #video{
@@ -179,12 +181,27 @@ a:hover {
     margin-bottom: 5px;
 }
 
+button {
+    background-color: #4b3621;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #6f4e37;
+}
 
 
 /* subscribe */
 
 #subscribe{
-    padding: 30px;
+    padding: 50px;
+    margin: 10px;
     text-align: center;
 }
 
@@ -203,4 +220,12 @@ footer{
     display: flex;
     justify-content: flex-end;
     gap: 30px;
+}
+
+.footer-items> p> a{
+    color: #cccccc;
+}
+
+.footer-items> p> a:hover{
+    color: #ffbb66;
 }
