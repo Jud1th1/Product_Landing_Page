@@ -26,8 +26,10 @@
       </header>
 
       <section id="home">
-        <video id="video" src="Content/Pouringcoffee.mp4" autoplay></video>
-        <h2 id="video-txt">Your perfect brew, delivered</h2>
+        <div id="video-container">
+          <video id="video" src="Content/Pouringcoffee.mp4" autoplay muted loop></video>
+          <h2 id="video-txt">Your perfect brew, delivered</h2>
+        </div>
         <p>Welcome to BrewBox, the ultimate coffee subscription for true coffee lovers! Whether you’re a bold espresso fan or prefer a smooth morning drip, we’ve got you covered. Our mission is simple: to bring you the freshest, most delicious coffee from the world’s top growers, right to your doorstep. Each month, discover new, expertly roasted blends tailored to your taste. Brew better. Sip happier. Join the BrewBox family today!</p>
       </section>
       
@@ -38,10 +40,10 @@
           <p>Handpicked coffee blends from around the world, freshly roasted and delivered to your door every month.</p>
         </div>
         <div class="griditem">
-          <img src="Content/roast.jpg" alt="">
+          <img class="mobile-image2" src="Content/roast.jpg" alt="">
         </div>
         <div class="griditem">
-          <img src="Content/coffeeimage001.jpg" alt="">
+          <img class="mobile-image1" src="Content/coffeeimage001.jpg" alt="">
         </div>
         <div class="griditem">
           <h3>Brew Guides</h3>
@@ -52,10 +54,10 @@
           <p>Our 100% compostable packaging ensures your coffee habit stays green and sustainable.</p>
         </div>
         <div class="griditem">
-          <img src="Content/green-recycle.jpg" alt="">
+          <img class="mobile-image1" src="Content/green-recycle.jpg" alt="">
         </div>
         <div class="griditem">
-          <img src="Content/lavendarcoffee.jpg" alt="">
+          <img class="mobile-image2" src="Content/lavendarcoffee.jpg" alt="">
         </div>
         <div class="griditem">
           <h3>Member Perks</h3>
@@ -64,7 +66,8 @@
       </section>
       
       <h2>Our Packages:</h2>
-      <section id="pricing">
+      <sec
+      tion id="pricing">
         <div class="subbox">
           <h4>The Starter</h4>
           <p class="price">$15</p>
@@ -108,27 +111,6 @@
         </div>
         
       </section>
-
-      <section id="subscribe">
-      <h2>Subscribe to our Monthly Newsletter</h2>
-      <p>Get coffee recipes, brewing tips, and exclusive discounts delivered straight to your inbox!</p>
-      <form id="form">
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" placeholder="Enter your email">
-        <br><br>
-        <button>Join Now</button>
-      </form>
-      </section> 
-
-      <footer>
-        <hr>
-        <div class="footer-items">
-          <p><a href=#>Privacy</a></p>
-          <p><a href=#>Terms</a></p>
-          <p><a href=#>Contact</a></p>
-        </div>
-        <p>Copyright &#169 2025, BrewBox</p>
-      </footer>
-  
+      
 </body>
 </html>
