@@ -245,8 +245,46 @@ button:hover {
 
 /*MOBILE RESPONSIVE SCREEN */
 @media (max-width: 768px) {
-    #nav-bar {
+    nav {
+        width: 100%;
+        padding: 10px;
+        display: flex;
         flex-direction: column;
+      }
+      
+    nav ul {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        font-size: 16px;
+    }
+
+    section {
+        scroll-margin-top: 200px; /* Adjust this value based on your navbar height */
+      }
+
+    .video-container {
+        width: 100%;
+        max-height: 800px;
+        margin: 0 auto;
+    }
+      
+    video {
+        width: 100%;
+        height: auto;
+        padding-top: 100px;
+    }
+      
+
+    #video-txt{
+        position: absolute;
+        top: 80%;
+        left: 60%;
+        transform: translate(10%, -55%);
+        font-size: 5vw;
+        text-align: left;
     }
 
     #features {
