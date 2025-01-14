@@ -114,6 +114,10 @@ a:hover {
     text-align: left;
 }
 
+section {
+    scroll-margin-top: 175px;
+  }
+
 /*Home section*/
 #home{
     background-color: var(--background-color);
@@ -192,7 +196,7 @@ a:hover {
     margin-bottom: 5px;
 }
 
-button {
+#submit {
     background-color: #4b3621;
     color: white;
     padding: 10px 20px;
@@ -203,7 +207,7 @@ button {
     transition: background-color 0.3s ease;
 }
 
-button:hover {
+#submit:hover {
     background-color: #6f4e37;
 }
 
